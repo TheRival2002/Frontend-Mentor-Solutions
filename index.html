@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+  <header>
+    <div class="header-wrapper">
+      <div class="header-icon">
+        <img src="/assets/images/logo.svg" alt="logo icon">
+      </div>
+      <div class="header-nav">
+        <button class="mobile-nav" aria-controls="primary-navigation" aria-expanded="false">
+          <span class="sr-only">Menu</span>
+        </button>
+        <nav class="primary-navigation" id="primary-navigation">
+          <ul class="nav-list | fs-regular fw-regular" role="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container | fs-regular">
+      <div class="container-columns">
+        <div class="column-main">
+          <picture>
+            <source srcset="/assets/images/image-web-3-desktop.jpg" media="(min-width: 50em)">
+            <img src="/assets/images/image-web-3-mobile.jpg" alt="image of pieces">
+          </picture>
+          <div class="column-main-info">
+            <div class="info-title | fs-bigger fw-bolder text-primary-600">
+              <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="info-description">
+              <p class="text-primary-500">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+              <button class="btn | bg-accent-500 text-neutral-400">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="column-sidebar | bg-primary-600">
+            <h2 class="fw-bold text-accent-400 fs-big">New</h2>
+            <div class="sidebar-content">
+              <h3 class="fw-bold fs-medium"><a href="#" class="content-info | text-neutral-400">Hydrogen VS Electric Cars</a></h3>
+              <p class="text-neutral-500">Will hyrdogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <div class="sidebar-content">
+              <h3 class="fw-bold fs-medium"><a href="#" class="content-info | text-neutral-400">The Downsides of AI Artistry</a></h3>
+              <p class="text-neutral-500">What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <div class="sidebar-content" style="border: none; padding-bottom: 0;">
+              <h3 class="fw-bold fs-medium"><a href="#" class="content-info | text-neutral-400">Is VC Funding Drying Up?</a></h3>
+              <p class="text-neutral-500">Private funding by VC firms is down 50% YDY. We take a look at what that means.</p>
+            </div>
+        </div>
+      </div>
+      <div class="container-row">
+        <div class="row-content">
+          <img src="/assets/images/image-retro-pcs.jpg" alt="picture of computer">
+          <div class="row-info">
+            <h3 class="fw-regular text-neutral-500 fs-big row-gap">01</h3>
+            <p class="fw-bolder fs-medium row-gap"><a href="#" class="info-text">Reviving Retro PC's</a></p>
+            <p class="fw-regular text-primary-500">What happens when old PC's are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="row-content">
+          <img src="/assets/images/image-top-laptops.jpg" alt="picture of laptop">
+          <div class="row-info">
+            <h3 class="fw-regular text-neutral-500 fs-big row-gap">02</h3>
+            <p class="fw-bolder fs-medium row-gap"><a href="#" class="info-text">Top 10 Laptops of 2022</a></p>
+            <p class="fw-regular text-primary-500">Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="row-content">
+          <img src="/assets/images/image-gaming-growth.jpg" alt="picture of joystick">
+          <div class="row-info">
+            <h3 class="fw-regular text-neutral-500 fs-big row-gap">03</h3>
+            <p class="fw-bolder fs-medium row-gap"><a href="#" class="info-text">The Growth of Gaming</a></p>
+            <p class="fw-regular text-primary-500">How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<script src="/main.js"></script>
+</body>
+</html>
