@@ -221,7 +221,7 @@ header{
     border: none;
     padding: 5px;
 
-    background-image: url('/assets/images/icon-menu.svg');
+    background-image: url('./assets/images/icon-menu.svg');
     background-size: contain;
     background-repeat: no-repeat;
     width: 30px;
@@ -230,7 +230,7 @@ header{
     z-index: 999;
   }
   .mobile-nav[aria-expanded="true"] {
-    background-image: url('/assets/images/icon-menu-close.svg');
+    background-image: url('./assets/images/icon-menu-close.svg');
   }
   .nav-list {
     display: flex;
